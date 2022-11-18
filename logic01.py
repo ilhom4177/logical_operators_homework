@@ -1,3 +1,4 @@
+from math import log, log2, log10
 def main(a,b,c):
     """
     Given three integers a, b, c,  check the following statement "The number b is between a and c".
@@ -8,4 +9,6 @@ def main(a,b,c):
     Returns:
         bool: answer
     """
-    return
+
+    return a<b==c
+print(main(6,4,1))
