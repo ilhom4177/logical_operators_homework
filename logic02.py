@@ -7,5 +7,5 @@ def main(a,b):
     Returns:
         bool: answer
     """
-    return a>0 and b>0
-print(main(5,8))    
+    return a<b<c or a>b>c
+print(main(5,3))
