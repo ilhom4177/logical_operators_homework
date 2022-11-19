@@ -6,5 +6,9 @@ def main(a):
     Returns:
         bool: answer
     """
-    return a>9 and b<100
+    x=a//10
+    a//=10
+    y=a%10
+    return x!=0 and x+y!=a
+
 print(main(12))
